@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一个小游戏</title>
+    <style>
+        #infoBox {
+            display: flex;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            justify-content: center;
+        }
+
+        .playerBox {
+            text-align: center;
+            width: 200px;
+        }
+
+        .playerBox h5 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .playerBox h6 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        
+        #startBox {
+            display: flex;
+            align-items: center;
+        }
+
+        #app {
+            border: 1px solid #ececec;
+            padding: 10px 10px;
+            margin: 0 auto;
+            width: 600px;
+        }
+
+        #operationBox {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            border-top: 1px solid #ececec;
+            background-color: #f0f0f0;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        let humanScore = 0;
+        let computerScore = 0;
+        let humanHand = 0;
+        let computerHand = 0;
+        function start() {
+            alert("积分清零，游戏开始！");
+            humanScore = 0;
+            computerScore = 0;
+            refreshUI();
+        }
+
+        function play(playerHand) {
+            // 首先，我们需要随机产生computerHand,
+            // 这里调用了浏览器提供的方法，这样会随机产生1, 2, 3三个数字
+            computerHand = Math.ceil(Math.random() * 3);
+            humanHand = playerHand;
+            // 这里我们开始判断输赢，
+            // 注意 1 -> scissor  2 -> rock   3-> paper
+            if( humanHand - computerHand === 1 || humanHand - computerHand === -2 ) {
+                // 选手赢！分数加1
+                humanScore ++;
+            } else if(computerHand - humanHand === 1 || computerHand - humanHand === -2) {
+                // 计算机赢!分数加1
+                computerScore ++;
+            }
+
+            // 别忘记了最后需要刷新界面！
+            refreshUI();
+        }
+
+        function refreshUI() {
+            document.getElementById("humanScore").innerText = "Score: " + humanScore;
+            document.getElementById("computerScore").innerText = "Score: " + computerScore;
+
+            let pictureName = "img/avatar.jpg";
+            if(humanHand === 1) {
+                pictureName = "img/human_scissor.png";
+            } else if(humanHand === 2) {
+                pictureName = "img/human_rock.png";
+            } else if(humanHand === 3) {
+                pictureName = "img/human_paper.png";
+            }
+            document.getElementById("humanHand").setAttribute("src", pictureName);
+
+            pictureName = "img/computer.png";
+            if(computerHand === 1) {
+                pictureName = "img/computer_scissor.png";
+            } else if(computerHand === 2) {
+                pictureName = "img/computer_rock.png";
+            } else if(computerHand === 3) {
+                pictureName = "img/computer_paper.png";
+            }
+
+            document.getElementById("computerHand").setAttribute("src", pictureName);
+        }
+
+    </script>
+
+    <div id="app">
+        <div id="infoBox">
+            <div id="humanBox" class="playerBox">
+                <img id="humanHand" src="img/avatar.jpg" width="100px"/>
+                <h5>ME</h5>
+                <h6 id="humanScore">Score: 0</h4>
+            </div>
+            <div id="startBox">
+                <button onclick="start()">开始</button>
+            </div>
+            <div id="computerBox" class="playerBox">
+                <div id="humanBox">
+                    <img id="computerHand" src="img/computer.png" width="100px" />
+                    <h5>Computer</h5>
+                    <h6 id="computerScore">Score: 0</h4>
+                </div>
+            </div>
+        </div>
+
+        <div id="operationBox">
+            <button onclick="play(1)">剪刀</button>
+            <button onclick="play(2)">石头</button>
+            <button onclick="play(3)">布</button>
+        </div>
+    </div>
+</body>
+</html>
