@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logo on Theia Academy的博客</title>
+    <link>http://theiaacademy.github.io/tags/logo/</link>
+    <description>Recent content in logo on Theia Academy的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 17 Jul 2020 16:09:49 +0800</lastBuildDate>
+    
+	<atom:link href="http://theiaacademy.github.io/tags/logo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo 添加fav icon和添加Logo</title>
+      <link>http://theiaacademy.github.io/posts/add_logo/</link>
+      <pubDate>Fri, 17 Jul 2020 16:09:49 +0800</pubDate>
+      
+      <guid>http://theiaacademy.github.io/posts/add_logo/</guid>
+      <description>我们在配置文中将favicon和site_log处，填上自己想要用的logo文件和favicon文件就可以了。
+本站使用的Logo 本站使用的favIcon文件 我的Logo能过Logaster.cn设计制作!</description>
+    </item>
+    
+  </channel>
+</rss>

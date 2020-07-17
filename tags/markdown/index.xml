@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Theia Academy的博客</title>
+    <link>http://theiaacademy.github.io/tags/markdown/</link>
+    <description>Recent content in markdown on Theia Academy的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 16 Jul 2020 23:11:55 +0800</lastBuildDate>
+    
+	<atom:link href="http://theiaacademy.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown的基本用法</title>
+      <link>http://theiaacademy.github.io/posts/markdown_basic/</link>
+      <pubDate>Thu, 16 Jul 2020 23:11:55 +0800</pubDate>
+      
+      <guid>http://theiaacademy.github.io/posts/markdown_basic/</guid>
+      <description>一级标题 二级标题 三级标题 四级标题 五级标题 六级标题  粗体 粗体 斜体 斜体 删除线
+这里是第一段落，我在这里写了重复了非常多的话。
+这里是第二段落，在我前面空了一行！
+跳回到首页
+无序列表 无序列表1  吃饭 睡觉 玩游戏  无序列表2  再吃饭 再睡觉 再玩游戏  有序列表 有序列表1  先打开冰箱 把大象放进去 关上冰箱门  有序列表2  干了加水 稀了加面 又干了再加水 又稀了还得再加面     序号 姓名（左对齐） 性别（居中） 电话号码(右对齐)     1 纪一 男 13000000000   2 和二 男 13000000001   3 黄三 男 13000000002    数学公式 latex语法,需要配置MathJax插件</description>
+    </item>
+    
+  </channel>
+</rss>

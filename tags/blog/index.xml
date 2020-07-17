@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Theia Academy的博客</title>
+    <link>http://theiaacademy.github.io/tags/blog/</link>
+    <description>Recent content in blog on Theia Academy的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 16 Jul 2020 20:46:21 +0800</lastBuildDate>
+    
+	<atom:link href="http://theiaacademy.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我的Hugo博客开张啦！</title>
+      <link>http://theiaacademy.github.io/posts/first/</link>
+      <pubDate>Thu, 16 Jul 2020 20:46:21 +0800</pubDate>
+      
+      <guid>http://theiaacademy.github.io/posts/first/</guid>
+      <description>你好，世界 这是一个由Hugo生成的博客，以后我就在这里更新我的C++学习笔记了，大家快来收藏我的站点吧，地址是https://theiaacademy.github.io！</description>
+    </item>
+    
+  </channel>
+</rss>

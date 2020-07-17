@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Theia Academy的博客</title>
-    <link>http://theiaacademy.github.io/posts/</link>
-    <description>Recent content in Posts on Theia Academy的博客</description>
+    <title>hugo on Theia Academy的博客</title>
+    <link>http://theiaacademy.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Theia Academy的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 17 Jul 2020 18:38:59 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2020 23:11:55 +0800</lastBuildDate>
     
-	<atom:link href="http://theiaacademy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://theiaacademy.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Myphoto</title>
-      <link>http://theiaacademy.github.io/posts/myphoto/</link>
-      <pubDate>Fri, 17 Jul 2020 18:38:59 +0800</pubDate>
-      
-      <guid>http://theiaacademy.github.io/posts/myphoto/</guid>
-      <description>div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img {width: 300px;height: 200px;object-fit: cover;flex-grow: 1;} </description>
-    </item>
-    
-    <item>
-      <title>Hugo 添加fav icon和添加Logo</title>
-      <link>http://theiaacademy.github.io/posts/add_logo/</link>
-      <pubDate>Fri, 17 Jul 2020 16:09:49 +0800</pubDate>
-      
-      <guid>http://theiaacademy.github.io/posts/add_logo/</guid>
-      <description>我们在配置文中将favicon和site_log处，填上自己想要用的logo文件和favicon文件就可以了。
-本站使用的Logo 本站使用的favIcon文件 我的Logo能过Logaster.cn设计制作!</description>
-    </item>
     
     <item>
       <title>Markdown的基本用法</title>

@@ -6,10 +6,42 @@
     <description>Recent content on Theia Academy的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Jul 2020 20:46:21 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 18:38:59 +0800</lastBuildDate>
     
 	<atom:link href="http://theiaacademy.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Myphoto</title>
+      <link>http://theiaacademy.github.io/posts/myphoto/</link>
+      <pubDate>Fri, 17 Jul 2020 18:38:59 +0800</pubDate>
+      
+      <guid>http://theiaacademy.github.io/posts/myphoto/</guid>
+      <description>div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img {width: 300px;height: 200px;object-fit: cover;flex-grow: 1;} </description>
+    </item>
+    
+    <item>
+      <title>Hugo 添加fav icon和添加Logo</title>
+      <link>http://theiaacademy.github.io/posts/add_logo/</link>
+      <pubDate>Fri, 17 Jul 2020 16:09:49 +0800</pubDate>
+      
+      <guid>http://theiaacademy.github.io/posts/add_logo/</guid>
+      <description>我们在配置文中将favicon和site_log处，填上自己想要用的logo文件和favicon文件就可以了。
+本站使用的Logo 本站使用的favIcon文件 我的Logo能过Logaster.cn设计制作!</description>
+    </item>
+    
+    <item>
+      <title>Markdown的基本用法</title>
+      <link>http://theiaacademy.github.io/posts/markdown_basic/</link>
+      <pubDate>Thu, 16 Jul 2020 23:11:55 +0800</pubDate>
+      
+      <guid>http://theiaacademy.github.io/posts/markdown_basic/</guid>
+      <description>一级标题 二级标题 三级标题 四级标题 五级标题 六级标题  粗体 粗体 斜体 斜体 删除线
+这里是第一段落，我在这里写了重复了非常多的话。
+这里是第二段落，在我前面空了一行！
+跳回到首页
+无序列表 无序列表1  吃饭 睡觉 玩游戏  无序列表2  再吃饭 再睡觉 再玩游戏  有序列表 有序列表1  先打开冰箱 把大象放进去 关上冰箱门  有序列表2  干了加水 稀了加面 又干了再加水 又稀了还得再加面     序号 姓名（左对齐） 性别（居中） 电话号码(右对齐)     1 纪一 男 13000000000   2 和二 男 13000000001   3 黄三 男 13000000002    数学公式 latex语法,需要配置MathJax插件</description>
+    </item>
     
     <item>
       <title>我的Hugo博客开张啦！</title>

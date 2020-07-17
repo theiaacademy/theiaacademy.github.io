@@ -3,26 +3,107 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://theiaacademy.github.io/posts/myphoto/</loc>
+    <lastmod>2020-07-17T18:38:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/tags/photo/</loc>
+    <lastmod>2020-07-17T18:38:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://theiaacademy.github.io/posts/</loc>
-    <lastmod>2020-07-16T20:46:21+08:00</lastmod>
+    <lastmod>2020-07-17T18:38:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/tags/</loc>
+    <lastmod>2020-07-17T18:38:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://theiaacademy.github.io/</loc>
+    <lastmod>2020-07-17T18:38:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/tags/customize/</loc>
+    <lastmod>2020-07-17T16:09:49+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/posts/add_logo/</loc>
+    <lastmod>2020-07-17T16:09:49+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/tags/logo/</loc>
+    <lastmod>2020-07-17T16:09:49+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/tags/html/</loc>
+    <lastmod>2020-07-16T23:11:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/tags/hugo/</loc>
+    <lastmod>2020-07-16T23:11:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/tags/markdown/</loc>
+    <lastmod>2020-07-16T23:11:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/posts/markdown_basic/</loc>
+    <lastmod>2020-07-16T23:11:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://theiaacademy.github.io/tags/blog/</loc>
     <lastmod>2020-07-16T20:46:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://theiaacademy.github.io/posts/first/</loc>
     <lastmod>2020-07-16T20:46:21+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://theiaacademy.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://theiaacademy.github.io/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

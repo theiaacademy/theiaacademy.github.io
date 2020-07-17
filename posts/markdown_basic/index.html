@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Markdown的基本用法 | Theia Academy的博客</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.73.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:title" content="Markdown的基本用法" />
+<meta property="og:description" content="一级标题 二级标题 三级标题 四级标题 五级标题 六级标题  粗体 粗体 斜体 斜体 删除线
+这里是第一段落，我在这里写了重复了非常多的话。
+这里是第二段落，在我前面空了一行！
+跳回到首页
+无序列表 无序列表1  吃饭 睡觉 玩游戏  无序列表2  再吃饭 再睡觉 再玩游戏  有序列表 有序列表1  先打开冰箱 把大象放进去 关上冰箱门  有序列表2  干了加水 稀了加面 又干了再加水 又稀了还得再加面     序号 姓名（左对齐） 性别（居中） 电话号码(右对齐)     1 纪一 男 13000000000   2 和二 男 13000000001   3 黄三 男 13000000002    数学公式 latex语法,需要配置MathJax插件" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://theiaacademy.github.io/posts/markdown_basic/" />
+<meta property="article:published_time" content="2020-07-16T23:11:55+08:00" />
+<meta property="article:modified_time" content="2020-07-16T23:11:55+08:00" />
+<meta itemprop="name" content="Markdown的基本用法">
+<meta itemprop="description" content="一级标题 二级标题 三级标题 四级标题 五级标题 六级标题  粗体 粗体 斜体 斜体 删除线
+这里是第一段落，我在这里写了重复了非常多的话。
+这里是第二段落，在我前面空了一行！
+跳回到首页
+无序列表 无序列表1  吃饭 睡觉 玩游戏  无序列表2  再吃饭 再睡觉 再玩游戏  有序列表 有序列表1  先打开冰箱 把大象放进去 关上冰箱门  有序列表2  干了加水 稀了加面 又干了再加水 又稀了还得再加面     序号 姓名（左对齐） 性别（居中） 电话号码(右对齐)     1 纪一 男 13000000000   2 和二 男 13000000001   3 黄三 男 13000000002    数学公式 latex语法,需要配置MathJax插件">
+<meta itemprop="datePublished" content="2020-07-16T23:11:55&#43;08:00" />
+<meta itemprop="dateModified" content="2020-07-16T23:11:55&#43;08:00" />
+<meta itemprop="wordCount" content="86">
+
+
+
+<meta itemprop="keywords" content="markdown,hugo,html," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown的基本用法"/>
+<meta name="twitter:description" content="一级标题 二级标题 三级标题 四级标题 五级标题 六级标题  粗体 粗体 斜体 斜体 删除线
+这里是第一段落，我在这里写了重复了非常多的话。
+这里是第二段落，在我前面空了一行！
+跳回到首页
+无序列表 无序列表1  吃饭 睡觉 玩游戏  无序列表2  再吃饭 再睡觉 再玩游戏  有序列表 有序列表1  先打开冰箱 把大象放进去 关上冰箱门  有序列表2  干了加水 稀了加面 又干了再加水 又稀了还得再加面     序号 姓名（左对齐） 性别（居中） 电话号码(右对齐)     1 纪一 男 13000000000   2 和二 男 13000000001   3 黄三 男 13000000002    数学公式 latex语法,需要配置MathJax插件"/>
+
+	
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"  crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js" integrity="sha256-fGPu+icKh985TLPhO2v68U7i0CW0dE4kiR06RN4O6jo=" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        <img src="/logo.png" class="w100 mw5-ns" alt="Theia Academy的博客" />
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+<div class="social-share" 
+data-sites="wechat,weibo,twitter,facebook,douban" 
+data-mobile-sites="wechat,weibo"></div>
+      <h1 class="f1 athelas mt3 mb1">Markdown的基本用法</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-07-16T23:11:55&#43;08:00">July 16, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<hr>
+<p><strong>粗体</strong>  <strong>粗体</strong>
+<em>斜体</em> <em>斜体</em>
+<del>删除线</del></p>
+<p>这里是第一段落，我在这里写了重复了非常多的话。</p>
+<p>这里是第二段落，在我前面空了一行！</p>
+<p><img src="/your_funny_face.jpg" alt="Your funny face">
+<img src="http://www.xszrecycling.com/file/cms/xsz/2019/04/22/201904221436055093072649.JPG" alt="汽车"></p>
+<p><a href="/posts/first/">跳回到首页</a></p>
+<h1 id="无序列表">无序列表</h1>
+<h2 id="无序列表1">无序列表1</h2>
+<ul>
+<li>吃饭</li>
+<li>睡觉</li>
+<li>玩游戏</li>
+</ul>
+<h2 id="无序列表2">无序列表2</h2>
+<ul>
+<li>再吃饭</li>
+<li>再睡觉</li>
+<li>再玩游戏</li>
+</ul>
+<h1 id="有序列表">有序列表</h1>
+<h2 id="有序列表1">有序列表1</h2>
+<ol>
+<li>先打开冰箱</li>
+<li>把大象放进去</li>
+<li>关上冰箱门</li>
+</ol>
+<h2 id="有序列表2">有序列表2</h2>
+<ol>
+<li>干了加水</li>
+<li>稀了加面</li>
+<li>又干了再加水</li>
+<li>又稀了还得再加面</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th align="left">姓名（左对齐）</th>
+<th align="center">性别（居中）</th>
+<th align="right">电话号码(右对齐)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td align="left">纪一</td>
+<td align="center">男</td>
+<td align="right">13000000000</td>
+</tr>
+<tr>
+<td>2</td>
+<td align="left">和二</td>
+<td align="center">男</td>
+<td align="right">13000000001</td>
+</tr>
+<tr>
+<td>3</td>
+<td align="left">黄三</td>
+<td align="center">男</td>
+<td align="right">13000000002</td>
+</tr>
+</tbody>
+</table>
+<h1 id="数学公式">数学公式</h1>
+<p>latex语法,需要配置MathJax插件</p>
+<p>$$ \sin^2 x + \cos^2 x = 1 $$
+$$ (x + y)^2 = x^2 + y^2 + 2xy $$</p>
+<h1 id="流程图">流程图</h1>
+<pre><code class="language-flow" data-lang="flow">st=&gt;start: 开始
+op=&gt;operation: My Operation
+cond=&gt;condition: Yes or No?
+e=&gt;end
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+&amp;```</code></pre><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/markdown" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">markdown</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">hugo</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/html" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">html</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">相关內容</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/first/">我的Hugo博客开张啦！</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://theiaacademy.github.io/" >
+    &copy;  Theia Academy的博客 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+    <script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </body>
+</html>
